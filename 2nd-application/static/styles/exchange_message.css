@@ -1,0 +1,104 @@
+body {
+    margin: 0;
+}
+.ul-nav-bar {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+.li-nav-bar {
+    float: left;
+}
+
+.li-nav-bar a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 16px 16px;
+    text-decoration: none;
+}
+
+.li-nav-bar a:hover {
+  background-color: #111;
+}
+.log-out-btn {
+    float: right;
+}
+.font-white {
+    color: white;
+}
+.li-nav-bar h2 {
+    color: white;
+}
+
+.main-section {
+    margin-top: 50px;
+}
+
+.left-side-panel {
+    float: left;
+    width: 35%;
+    background-color: whitesmoke;
+    height: 528px;
+}
+
+.right-side-panel {
+    float: right;
+    width: 65%;
+    background-color: teal;
+    height: 528px;
+}
+
+.bottom {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    display: inline-block;
+}
+.w-100p {
+    width: 100%;
+}
+.p-r-16 {
+    padding-right: 16px;
+}
+.p-l-16 {
+    padding-left: 16px;
+}
+.p-t-16 {
+    padding-top: 16px;
+}
+.p-b-16 {
+    padding-bottom: 16px;
+}
+/* .search-panel {
+    width: 100%;
+} */
+.w-70p {
+   display: inline-block;
+}
+.w-30p {
+    display: inline-block;
+}
+.w-70p, .w-30p {
+    vertical-align: middle;
+}
+.h-480 {
+    height: 480px;
+}
+@media (max-width: 532px) {
+    .w-70p, .w-30p {
+        width: 100%;
+        height: auto;
+    }
+}
+@media (max-width: 750px) {
+    .right-side-panel, .left-side-panel {
+        width: 100%;
+        height: auto;
+    }
+}
